@@ -1,6 +1,6 @@
 # Description
 
-Eric Cannon - Final Year Project on Monte Carlo Tree Search
+Final Year Project on Monte Carlo Tree Search
 
 ##  How to view this project?
 
