@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tictactoe.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <u><h1>Tic Tac Toe</h1></u>
+
+    <div class="container-1">
+
+        <div class="container-2">
+            <h3 class="player-turn">YOUR TURN!</h3>
+
+            <div class="box1">
+                <table>
+                    <tr>
+                        <td class="cell" data-cell-index="0"></td>
+                        <td class="cell" data-cell-index="1"></td>
+                        <td class="cell" data-cell-index="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" data-cell-index="3"></td>
+                        <td class="cell" data-cell-index="4"></td>
+                        <td class="cell" data-cell-index="5"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" data-cell-index="6"></td>
+                        <td class="cell" data-cell-index="7"></td>
+                        <td class="cell" data-cell-index="8"></td>
+                    </tr>
+    
+                </table>
+            </div>
+            <div class="reset">Reset</div>
+
+
+
+
+        </div>
+
+        <div class="container-3">
+
+            <div class="box3">
+
+                <span>Would you like to go first?</span>
+                <label for="Yes">Yes</label>
+                <input type="radio" id="Yes" checked = "true" name="first">
+                <label for="No">No</label>
+                <input type="radio" id="No" name="first">
+            </div><br>
+
+
+
+            <div class="box4">
+                <span>Number of simulations you would like the AI to run:</span>
+                <input type="text" id="sims" name="sims" value="10000">
+            </div><br>
+            
+
+
+            <div class="box2">
+
+                <label for="">The more simulations you run, the harder it is to beat the AI!</label>
+    
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="tictactoe.js"></script>
+</body>
+</html>

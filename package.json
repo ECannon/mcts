@@ -1,0 +1,19 @@
+{
+  "name": "fyp2021",
+  "version": "1.0.0",
+  "description": "Eric Cannon - Final Year Project on Monte Carlo Tree Search",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cs.nuim.ie/u180407/fyp2021.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+}
+
+.container-1 {
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 100px; */
+}
+
+.container-2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1.4;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-3 {
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    font-size: larger;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    background: black;
+}
+
+.box2 {
+    flex:1;
+    /* border: 1px solid black;   */
+
+}
+
+td {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: green;
+    cursor: pointer;
+}
+
+.reset {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy';
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    display: table;
+    width: 810px;
+    height: 810px;
+    padding: 0px;
+    border-collapse: collapse;
+    background: #129104;
+    border: 1px solid #0a5e01;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-spacing: 5px 5px;
+}
+h3{
+    font-size: 2rem;
+}
+
+.player-turn, .heading{
+    margin-top: 0.5rem;
+
+}
+
+
+.cell {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+.row {
+    display: table-row;
+}
+
+
+.reset{
+    position: absolute;
+    top:58rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 6px 5px #888888;
+    transition: .5s;
+}
+
+.reset:hover{
+    transition: 0.8s;
+    box-shadow: 0px 0px #888888;
+} */
+/* .greenSquare {
+    position: absolute;
+    background-color: green;
+} */

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="connect4.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect Four</title>
+</head>
+<body>
+
+    <u><h1>Connect Four</h1></u>
+
+
+
+    <div class="container-1">
+
+        <div class="container-2">
+            <h3 class="player-turn"></h3>
+            <div class="box1">
+
+                <table>
+                    <tr>
+                        <td class="slot" id="cell00"></td>
+                        <td class="slot" id="cell01"></td>
+                        <td class="slot" id="cell02"></td>
+                        <td class="slot" id="cell03"></td>
+                        <td class="slot" id="cell04"></td>
+                        <td class="slot" id="cell05"></td>
+                        <td class="slot" id="cell06"></td>
+                    </tr>
+                    <tr>
+                        <td class="slot" id="cell10"></td>
+                        <td class="slot" id="cell11"></td>
+                        <td class="slot" id="cell12"></td>
+                        <td class="slot" id="cell13"></td>
+                        <td class="slot" id="cell14"></td>
+                        <td class="slot" id="cell15"></td>
+                        <td class="slot" id="cell16"></td>
+                    </tr>
+                    <tr>
+                        <td class="slot" id="cell20"></td>
+                        <td class="slot" id="cell21"></td>
+                        <td class="slot" id="cell22"></td>
+                        <td class="slot" id="cell23"></td>
+                        <td class="slot" id="cell24"></td>
+                        <td class="slot" id="cell25"></td>
+                        <td class="slot" id="cell26"></td>
+                    </tr>
+                    <tr>
+                        <td class="slot" id="cell30"></td>
+                        <td class="slot" id="cell31"></td>
+                        <td class="slot" id="cell32"></td>
+                        <td class="slot" id="cell33"></td>
+                        <td class="slot" id="cell34"></td>
+                        <td class="slot" id="cell35"></td>
+                        <td class="slot" id="cell36"></td>
+                    </tr>
+                    <tr>
+                        <td class="slot" id="cell40"></td>
+                        <td class="slot" id="cell41"></td>
+                        <td class="slot" id="cell42"></td>
+                        <td class="slot" id="cell43"></td>
+                        <td class="slot" id="cell44"></td>
+                        <td class="slot" id="cell45"></td>
+                        <td class="slot" id="cell46"></td>
+                    </tr>
+                    <tr>
+                        <td class="slot" id="cell50"></td>
+                        <td class="slot" id="cell51"></td>
+                        <td class="slot" id="cell52"></td>
+                        <td class="slot" id="cell53"></td>
+                        <td class="slot" id="cell54"></td>
+                        <td class="slot" id="cell55"></td>
+                        <td class="slot" id="cell56"></td>
+                    </tr>
+                </table>
+    
+            </div>
+            <div class="reset">Reset</div>
+        </div>
+
+
+        <div class="container-3">
+
+
+            <div class="box3">
+
+                <span>Would you like to go first?</span>
+                <label for="Yes">Yes</label>
+                <input type="radio" id="Yes" checked = "true" name="first">
+                <label for="No">No</label>
+                <input type="radio" id="No" name="first">
+            </div><br>
+
+
+
+            <div class="box4">
+                <span>Number of simulations you would like the AI to run:</span>
+                <input type="text" id="sims" name="sims" value="10000">
+            </div><br>
+            
+
+
+            <div class="box2">
+
+                <label for="">The more simulations you run, the harder it is to beat the AI!</label>
+    
+            </div>
+
+        </div>
+        
+    
+
+
+    </div>
+
+
+
+
+
+
+
+    
+<script src="connect4.js"></script>
+</body>
+</html>
