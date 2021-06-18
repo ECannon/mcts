@@ -2,7 +2,7 @@
 
 Final Year Project on Monte Carlo Tree Search
 
-##  How to view this project?
+##  Want to try it out?
 
 This project can be viewed at https://mcts-fyp.herokuapp.com/.
 
